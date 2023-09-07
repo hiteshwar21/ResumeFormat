@@ -1,6 +1,7 @@
 # ResumeFormat
 A latex form to create or modify resumes. It has been well commented on and can be molded as per requirements. This was the initial data for my resume - 
 
+
 Hiteshwar
 Email: hiteshwar.mehla@icloud.com
 Portfolio: thegodofhearts.com
@@ -50,4 +51,8 @@ Achievements
 • PSA Scholar: Among the top 3000 recipients across all CBSE Schools for Reasoning and aptitude in 2012-2013.
 • President, Photography Club: Organized Fests (with a footfall of 1500), conducted more than 20 workshops, and won competitions at various universities from 2016 to 2019.
 • Governor Awardee - Logo Design: Winner of the University’s Official Logo Design Competition in 2017.
+
+
+
+And the resume came out like this - [Link to My Resume PDF](https://github.com/hiteshwarmehla21/ResumeFormat/blob/main/Hiteshwar%20Resume.pdf)
 
