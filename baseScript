@@ -105,14 +105,14 @@
     {Software Engineer II}{Jan. 2023 -- Mar. 2023}
     \resumeItemListStart
       \resumeItem{Annotation and Highlighting Engine}
-        {Lead the development of a microservice that enables text annotation, highlights existing extracted texts, and integrates with two OCR services (Abbyy, Aspose), resulting in a \textbf{500\%} improvement in user lookup times.}
+        {Led the development of a microservice that enables text annotation, highlights existing extracted texts, and integrates with two OCR services (Abbyy, Aspose), resulting in a \textbf{500\%} improvement in user lookup times.}
     \resumeItemListEnd
   \resumeSubSubheading
     {Software Engineer I}{Apr. 2021 -- Dec. 2022}
     \resumeItemListStart
       \resumeItem{Extraction Stage Orchestrator}
         {Designed and developed an orchestrator to streamline complex document completion workflows across multiple microservices, simplifying monitoring and debugging processes. This initiative led to a \textbf{300\%} reduction in dev efforts.}
-      \resumeItem{Self Serve Model}
+      \resumeItem{Self-Serve Model}
         {Mentored junior developers and implemented client-driven ML model training and customization, enabling clients to create models from scratch or adjust base models through feedback.}
       \resumeItem{GDPR Compliance}
         {Subject Matter Expert (\textbf{SME}) for the feature to make the product GDPR Compliant.}
@@ -123,18 +123,18 @@
     {Associate Software Engineer}{Jul. 2019 -- Mar. 2021}
     \resumeItemListStart
       \resumeItem{AutoExtraction}
-        {Developed a platform for uploading and parsing documents and extracting relevant data, reducing the man-hours from \textbf{5-7 days to 1 min} at a scale of \textbf{10 million plus documents.}}
+        {Developed a platform for uploading and parsing documents and extracting relevant data, reducing the man-hours from \textbf{5-7 days to 1 minute} at a scale of \textbf{10 million plus documents.}}
       \resumeItem{Rule Engine}
-        {Implemented client-specific metadata-based rules, automating processes and eliminating manual effort.}
+        {Implemented client-specific metadata rules, automating processes and eliminating manual effort.}
       \resumeItem{Proof of Concept}
-        {Conducted POCs on the usage of different 3rd party tools, including Aspose, Amazon Textract, Abbyy, Apache Pulsar, and Apache Kafka.}
+        {Conducted POCs on the usage of different 3rd party tools, including Aspose, Abbyy, Amazon Textract, Apache Pulsar, and Apache Kafka.}
     \resumeItemListEnd
   \resumeSubheading
     {Publicis Sapient}{Bengaluru, India}
     {Intern}{Jan. 2019 -- Jun. 2019}
     \resumeItemListStart
       \resumeItem{People Enrich}
-        {Developed an internal tool for real-time resource allocation and management, resulting in a 30\% reduction in manual allocation time and a  \textbf{25\% boost in resource utilization.}}
+        {Developed an internal tool for real-time resource allocation and management, resulting in a \textbf{30\%} reduction in manual allocation time and a  \textbf{25\% boost} in resource utilization.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -142,32 +142,34 @@
 \section{Education}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {JC Bose University of Science and Technology, YMCA}{Faridabad, India}
+    {YMCA University of Science and Technology}{Delhi NCR, India}
     {Bachelor of Information Technology}{Aug. 2015 -- Jun. 2019}
 \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
-  \resumeSubItem{Parking Lot}
-    {Implemented a Parking Lot system using SOLID principles and Design Patterns.}
+  \resumeSubItem{\href{https://www.whatcaratwhatsalary.com/}What Car at What Salary}
+    {A website with around 10k MAUs telling which car suits certain income classes.}
   \resumeSubItem{Legal Logix}
     {Developed a POC enabling lawyers to efficiently create and manage digital records for their clients.}
+  \resumeSubItem{Parking Lot}
+    {Implemented a Parking Lot system using SOLID principles and Design Patterns.}
 \resumeSubHeadingListEnd
 
 %-----------SKILLS-----------------
 \section{Skills}
 \resumeSubHeadingListStart
   \resumeSubItem{Programming Languages}
-    {Java}
+    {Java, Golang}
   \resumeSubItem{Databases}
-    {PostgreSQL, SQL, MongoDB}
+    {PostgreSQL, SQL, MongoDB, Redis}
   \resumeSubItem{Frameworks and Tools}
-    {SpringBoot, Redis, Git, AWS, Jira, Apache Pulsar}
+    {SpringBoot, Apache Kafka, Git, AWS, Jira, Apache Pulsar}
   \resumeSubItem{Core Skills}
     {Object-Oriented Programming (OOPS), Data Structures and Algorithms, System Design, Design Patterns, Database Management System (DBMS), SOLID Principles}
   \resumeSubItem{Soft Skills}
-    {Problem Solving, Effective Communication, Cross-Functional Collaboration, Data-Driven and Adaptive}
+    {Problem-Solving, Effective Communication, Cross-Functional Collaboration, Data-Driven and Adaptive}
 \resumeSubHeadingListEnd
 
 %--------ACHIEVEMENTS------------
@@ -176,7 +178,7 @@
     \resumeSubItem{The Gandalf of the Quarter}
       {Recognized for writing features with the fewest bugs (at least 5 story deliveries).}
     \resumeSubItem{President, Photography Club}
-      {Organized Fests (with a footfall of 1500), conducted more than 20 workshops, and won competitions at various universities.}
+      {Organized Fests (with a footfall of around 1500), conducted more than 20 workshops and won photography competitions at various universities.}
   \resumeSubHeadingListEnd
 
 %-------------------------------------------
