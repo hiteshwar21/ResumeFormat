@@ -39,7 +39,7 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generated PDF is machine-readable/ATS parsable
+% Ensure that the generated PDF is machine-readable/ATS parsable
 \pdfgentounicode=1
 
 %-------------------------
@@ -95,7 +95,7 @@
 
 %----------SUMMARY-----------------
 \section{Summary}
-\textbf{Software Engineer} with over 4 years of experience, dedicated to delivering highly scalable and performant systems. Proficient in agile software development, specializing in the Scrum process.
+\textbf{Software Engineer} with over 4 years of expertise, dedicated to delivering scalable and performant systems. Proficient in agile software development, specializing in the Scrum process.
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
@@ -105,7 +105,7 @@
     {Software Engineer II}{Jan. 2023 -- Mar. 2023}
     \resumeItemListStart
       \resumeItem{Annotation and Highlighting Engine}
-        {Led the development of a microservice that enables text annotation, highlights existing extracted texts, and integrates with two OCR services (Abbyy, Aspose), resulting in a \textbf{500\%} improvement in user lookup times.}
+        {Led a cross-functional team of 4 professionals and spearheaded the design and development of a cutting-edge microservice that facilitates text annotation, enhances existing extracted texts, and seamlessly integrates with industry-leading OCR services, resulting in a \textbf{500\%} improvement in user lookup times.}
     \resumeItemListEnd
   \resumeSubSubheading
     {Software Engineer I}{Apr. 2021 -- Dec. 2022}
@@ -153,8 +153,6 @@
     {A website with around 10k MAUs telling which car suits certain income classes.}
   \resumeSubItem{Legal Logix}
     {Developed a POC enabling lawyers to efficiently create and manage digital records for their clients.}
-  \resumeSubItem{Parking Lot}
-    {Implemented a Parking Lot system using SOLID principles and Design Patterns.}
 \resumeSubHeadingListEnd
 
 %-----------SKILLS-----------------
@@ -167,7 +165,7 @@
   \resumeSubItem{Frameworks and Tools}
     {SpringBoot, Apache Kafka, Git, AWS, Jira, Apache Pulsar}
   \resumeSubItem{Core Skills}
-    {Object-Oriented Programming (OOPS), Data Structures and Algorithms, System Design, Design Patterns, Database Management System (DBMS), SOLID Principles}
+    {Object-oriented programming (OOPS), Data Structures and Algorithms, System Design, Design Patterns, Database Management System (DBMS), SOLID Principles}
   \resumeSubItem{Soft Skills}
     {Problem-Solving, Effective Communication, Cross-Functional Collaboration, Data-Driven and Adaptive}
 \resumeSubHeadingListEnd
