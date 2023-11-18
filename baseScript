@@ -88,9 +88,9 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://thegodofhearts.com/}{\Large Hiteshwar}} & Email: \href{mailto:hiteshwar.mehla@icloud.com}{hiteshwar.mehla@icloud.com} \\
-  Backend Developer & LinkedIn: \href{https://www.linkedin.com/in/hiteshwarmehla/}{in/hiteshwarmehla} \\
-  Mobile: +91-9416026957 & GitHub: \href{https://github.com/hiteshwarmehla21}{/hiteshwarmehla21}
+  \textbf{\Large Hiteshwar} & Email: \href{mailto:hiteshwar.kkr@gmail.com}{hiteshwar.kkr@gmail.com} \\
+  Software Developer & LinkedIn: \href{https://www.linkedin.com/in/hiteshwar21/}{in/hiteshwar21} \\
+  Mobile: +91-9588192368 & GitHub: \href{https://github.com/hiteshwar21}{hiteshwar21}
 \end{tabular*}
 
 %----------SUMMARY-----------------
@@ -101,7 +101,7 @@
 \section{Experience}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {SirionLabs}{Gurugram, India}
+    {Sirion}{Gurugram, India}
     {Software Engineer II}{Jan. 2023 -- Mar. 2023}
     \resumeItemListStart
       \resumeItem{Annotation and Highlighting Engine}
@@ -149,8 +149,8 @@
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
-  \resumeSubItem{\href{https://www.whatcaratwhatsalary.com/}What Car at What Salary}
-    {A website with around 10k MAUs telling which car suits certain income classes.}
+  \resumeSubItem{Parking Lot}
+    {Implemented a Parking Lot system using SOLID principles and Design Patterns.}
   \resumeSubItem{Legal Logix}
     {Developed a POC enabling lawyers to efficiently create and manage digital records for their clients.}
 \resumeSubHeadingListEnd
