@@ -105,13 +105,13 @@
     {Software Engineer II}{Jan. 2023 -- Mar. 2023}
     \resumeItemListStart
       \resumeItem{Annotation and Highlighting Engine}
-        {Led a cross-functional team of 4 professionals and spearheaded the design and development of a cutting-edge microservice that facilitates text annotation, enhances existing extracted texts, and seamlessly integrates with industry-leading OCR services, resulting in a \textbf{500\%} improvement in user lookup times.}
+        {Led a cross-functional team of 4 professionals and spearheaded the design and development of a cutting-edge microservice that facilitates text annotation, enhances existing extracted texts, and seamlessly integrates with industry-leading OCR services, resulting in a \textbf{500\%} improvement in user lookup times. This was done using Java 17, Springboot, Kafka, MongoDB, AWS S3 and Redis.}
     \resumeItemListEnd
   \resumeSubSubheading
     {Software Engineer I}{Apr. 2021 -- Dec. 2022}
     \resumeItemListStart
       \resumeItem{Extraction Stage Orchestrator}
-        {Designed and developed an orchestrator to streamline complex document completion workflows across multiple microservices, simplifying monitoring and debugging processes. This initiative led to a \textbf{300\%} reduction in dev efforts.}
+        {Designed and developed an orchestrator to streamline complex document completion workflows across multiple microservices, simplifying monitoring and debugging processes. This initiative led to a \textbf{300\%} reduction in dev efforts. Used Java 11, Springboot, PostgreSQL and Apache Pulsar.}
       \resumeItem{Self-Serve Model}
         {Mentored junior developers and implemented client-driven ML model training and customization, enabling clients to create models from scratch or adjust base models through feedback.}
       \resumeItem{GDPR Compliance}
@@ -127,14 +127,14 @@
       \resumeItem{Rule Engine}
         {Implemented client-specific metadata rules, automating processes and eliminating manual effort.}
       \resumeItem{Proof of Concept}
-        {Conducted POCs on the usage of different 3rd party tools, including Aspose, Abbyy, Amazon Textract, Apache Pulsar, and Apache Kafka.}
+        {Conducted POCs on the usage of different 3rd party tools, including Aspose, Abbyy, Amazon Textract, Apache Pulsar, Apache Kafka, Migration from Java 8 to Java 11 and then to Java 17 Eventually.}
     \resumeItemListEnd
   \resumeSubheading
     {Publicis Sapient}{Bengaluru, India}
     {Intern}{Jan. 2019 -- Jun. 2019}
     \resumeItemListStart
       \resumeItem{People Enrich}
-        {Developed an internal tool for real-time resource allocation and management, resulting in a \textbf{30\%} reduction in manual allocation time and a  \textbf{25\% boost} in resource utilization.}
+        {Developed an internal tool for real-time resource allocation and management, resulting in a  \textbf{25\% boost} in resource utilization. Used Java, Springboot and PostgreSQL in this project.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 
