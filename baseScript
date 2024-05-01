@@ -88,28 +88,38 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Hiteshwar} & Email: \href{mailto:hiteshwar.kkr@gmail.com}{hiteshwar.kkr@gmail.com} \\
-  Software Developer & LinkedIn: \href{https://www.linkedin.com/in/hiteshwar21/}{in/hiteshwar21} \\
-  Mobile: +91-9588192368 & GitHub: \href{https://github.com/hiteshwar21}{hiteshwar21}
+  \textbf{\Large Hiteshwar} & Email: \href{mailto:hiteshwar.mehla@gmail.com}{hiteshwar.mehla@gmail.com} \\
+  Software Developer & LinkedIn: \href{https://www.linkedin.com/in/hiteshwarmehla/}{in/hiteshwarmehla} \\
+  Mobile: +91-9416026957 & GitHub: \href{https://github.com/hiteshwar21}{hiteshwar21}
 \end{tabular*}
 
 %----------SUMMARY-----------------
 \section{Summary}
-\textbf{Software Engineer} with over 4 years of expertise, dedicated to delivering scalable and performant systems. Proficient in agile software development, specializing in the Scrum process.
+\textbf{Software Engineer} with over 5 years of expertise, dedicated to delivering scalable and performant systems. Proficient in agile software development, specializing in the Scrum process.
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
 \resumeSubHeadingListStart
   \resumeSubheading
+    {EPAM}{Gurugram, India}
+    {Senior Platform Engineer}{Feb. 2024 -- current}
+    \resumeItemListStart
+      \resumeItem{People Enrich}
+        {Developed an inter}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Publicis Sapient}{Gurugram, India}
+    {Senior Platform Engineer}{Dec. 2023 -- Feb. 2023}
+    \resumeItemListStart
+      \resumeItem{People Enrich}
+        {Developed an inter}
+    \resumeItemListEnd
+  \resumeSubheading
     {Sirion}{Gurugram, India}
-    {Software Engineer II}{Jan. 2023 -- Mar. 2023}
+    {Software Engineer II}{Jul. 2019 -- Mar. 2023}
     \resumeItemListStart
       \resumeItem{Annotation and Highlighting Engine}
         {Led a cross-functional team of 4 professionals and spearheaded the design and development of a cutting-edge microservice that facilitates text annotation, enhances existing extracted texts, and seamlessly integrates with industry-leading OCR services, resulting in a \textbf{500\%} improvement in user lookup times. This was done using Java 17, Springboot, Kafka, MongoDB, AWS S3 and Redis.}
-    \resumeItemListEnd
-  \resumeSubSubheading
-    {Software Engineer I}{Apr. 2021 -- Dec. 2022}
-    \resumeItemListStart
       \resumeItem{Extraction Stage Orchestrator}
         {Designed and developed an orchestrator to streamline complex document completion workflows across multiple microservices, simplifying monitoring and debugging processes. This initiative led to a \textbf{300\%} reduction in dev efforts. Used Java 11, Springboot, PostgreSQL and Apache Pulsar.}
       \resumeItem{Self-Serve Model}
@@ -118,10 +128,6 @@
         {Subject Matter Expert (\textbf{SME}) for the feature to make the product GDPR Compliant.}
       \resumeItem{Document Listings}
         {Enhanced legacy code to current coding standards, resulting in a significant improvement (\textbf{70\%}) in List Fetch API.}
-    \resumeItemListEnd
-  \resumeSubSubheading
-    {Associate Software Engineer}{Jul. 2019 -- Mar. 2021}
-    \resumeItemListStart
       \resumeItem{AutoExtraction}
         {Developed a platform for uploading and parsing documents and extracting relevant data, reducing the man-hours from \textbf{5-7 days to 1 minute} at a scale of \textbf{10 million plus documents.}}
       \resumeItem{Rule Engine}
