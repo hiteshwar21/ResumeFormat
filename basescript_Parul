@@ -1,0 +1,167 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Parul Dhingra
+% License: MIT
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Adjust margins
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that the generated PDF is machine-readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1:} #2 \vspace{-2pt}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small#2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Parul Dhingra} & Email: \href{mailto:paruldhingra503@gmail.com}{paruldhingra503@gmail.com} \\
+  Senior Software Engineer & LinkedIn: \href{https://www.linkedin.com/in/paruldhingra97}{in/paruldhingra97} \\
+  Mobile: +91-9971928781 & GitHub: \href{https://www.github.com/parul-97}{/parul-97}
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Microsoft}{Noida, India}
+    {Software Engineer II, L62}{Mar. 2022 -- Current}
+    \resumeItemListStart
+      \resumeItem{Architected Core Service Migration}
+        {Led the successful migration of core services from IaaS to PaaS, implementing robust system designs that reduced Azure costs while optimizing performance. Enhanced throughput from 50 to 200 requests per 5 seconds, and improved average order creation time by 30\% (from 12 seconds to 8 seconds) through asynchronous processing and optimized data retrieval.}
+      \resumeItem{Security Leadership}
+        {Drove initiatives to enhance backend security, implementing advanced authentication and authorization frameworks such as Managed Identities and Azure Easy Auth. Established network isolation and refined access policies for secure inter-service communication, significantly mitigating security risks. Developed a proof of concept for secure server-to-server communication between tenants, fortifying inter-tenant security protocols.}
+      \resumeItem{Legacy System Modernization}
+        {Led a cross-functional team of four engineers to transform a legacy ordering system into a modern architecture, employing caching strategies, query optimization, and load balancing techniques. This modernization resulted in a 70\% reduction in API latency and a 150\% increase in throughput, greatly enhancing loading times for large orders (151k items) and significantly improving customer experience. Mentored team members throughout the project, fostering a culture of continuous improvement and knowledge sharing.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Qualcomm}{Hyderabad, India}
+    {Software Engineer}{Jan. 2020 -- Feb. 2022}
+    \resumeItemListStart
+      \resumeItem{Processor Power Optimization}
+        {Developed power management features in Java and C++, achieving a 20\% reduction in power consumption.}
+      \resumeItem{Smart Contracts}
+        {Created a system to convert scanned contracts into machine-readable PDFs, improving document retrieval speed by 30\%.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Samsung R\&D}{Bengaluru, India}
+    {Software Engineer}{Jan. 2019 -- Jan. 2020}
+    \resumeItemListStart
+      \resumeItem{CodeReviewCommment.ai}
+        {Enhanced code review efficiency by 25\% through machine learning algorithms.}
+      \resumeItem{S Health}
+        {Built user health profiles using accelerometer data, leading to a 15\% increase in app usage.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {YMCA University of Science and Technology}{Delhi NCR, India}
+    {Bachelor of Information Technology (9.2 CGPA)}{Aug. 2015 -- Jun. 2019}
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\section{Skills}
+\resumeSubHeadingListStart
+  \resumeSubItem{Programming Languages}
+    {C++, Java}
+  \resumeSubItem{Databases}
+    {SQL, Cosmos Db, Redis}
+  \resumeSubItem{Frameworks and Tools}
+    {Azure, Git}
+  \resumeSubItem{Core Skills}
+    {Object-oriented programming (OOPS), Data Structures and Algorithms, System Design, Design Patterns, Database Management System (DBMS), SOLID Principles}
+  \resumeSubItem{Soft Skills}
+    {Problem-Solving, Effective Communication, Cross-Functional Collaboration, Data-Driven and Adaptive}
+\resumeSubHeadingListEnd
+
+%--------ACHIEVEMENTS------------
+\section{Achievements}
+\resumeSubHeadingListStart
+  \resumeSubItem{Enterprise Commerce Learn-It-All Q4 FY24}
+    {Recognized for exceptional progress and contributions through day-to-day work and meaningful collaboration, demonstrating continuous professional development.}
+  \resumeSubItem{Enterprise Commerce Excellence - Wall of Fame Q3 FY24}
+    {Contributed significantly to the organization's delivery objectives and cultural development, supporting key goals and driving achievements.}
+  \resumeSubItem{Enterprise Commerce Security Star Award Q2 FY24}
+    {Recognized for excellence in enhancing system security by improving authentication and authorization mechanisms.}
+  \resumeSubItem{Qual Star Award Q4 FY21}
+    {Recognized under the principle of ownership of the product.}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
