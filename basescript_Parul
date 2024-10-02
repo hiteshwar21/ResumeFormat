@@ -100,12 +100,12 @@
     {Microsoft}{Noida, India}
     {Software Engineer II, L62}{Mar. 2022 -- Current}
     \resumeItemListStart
-      \resumeItem{Architected Core Service Migration}
-        {Led the successful migration of core services from IaaS to PaaS, implementing robust system designs that reduced Azure costs while optimizing performance. Enhanced throughput from 50 to 200 requests per 5 seconds, and improved average order creation time by 30\% (from 12 seconds to 8 seconds) through asynchronous processing and optimized data retrieval.}
+            \resumeItem{Architected Core Service Migration}
+        {Led the successful migration of core services from IaaS to PaaS on \textbf{Azure}, implementing robust system designs that reduced cloud costs by optimizing resource utilization. Enhanced system performance by increasing throughput from 50 to 200 requests per 5 seconds and improved average order creation time by 30\% (from 12 seconds to 8 seconds) through \textbf{asynchronous processing} and optimized data retrieval mechanisms.}
       \resumeItem{Security Leadership}
-        {Drove initiatives to enhance backend security, implementing advanced authentication and authorization frameworks such as Managed Identities and Azure Easy Auth. Established network isolation and refined access policies for secure inter-service communication, significantly mitigating security risks. Developed a proof of concept for secure server-to-server communication between tenants, fortifying inter-tenant security protocols.}
+        {Drove initiatives to enhance backend security by implementing advanced authentication and authorization frameworks such as \textbf{Managed Identities} and \textbf{Azure Easy Auth}. Established network isolation and refined access policies for secure inter-service communication, significantly mitigating security risks. Developed a proof of concept for secure server-to-server communication between tenants, fortifying inter-tenant security protocols.}
       \resumeItem{Legacy System Modernization}
-        {Led a cross-functional team of four engineers to transform a legacy ordering system into a modern architecture, employing caching strategies, query optimization, and load balancing techniques. This modernization resulted in a 70\% reduction in API latency and a 150\% increase in throughput, greatly enhancing loading times for large orders (151k items) and significantly improving customer experience. Mentored team members throughout the project, fostering a culture of continuous improvement and knowledge sharing.}
+        {Led a cross-functional team of four engineers to transform a legacy ordering system into a modern architecture, employing \textbf{caching strategies}, \textbf{query optimization}, and \textbf{load balancing techniques}. This modernization resulted in a 70\% reduction in API latency and a 150\% increase in throughput, greatly enhancing loading times for large orders (151k items) and significantly improving customer experience. Mentored team members throughout the project, fostering a culture of continuous improvement and knowledge sharing.}
     \resumeItemListEnd
   \resumeSubheading
     {Qualcomm}{Hyderabad, India}
@@ -145,21 +145,21 @@
   \resumeSubItem{Frameworks and Tools}
     {Azure, Git}
   \resumeSubItem{Core Skills}
-    {Object-oriented programming (OOPS), Data Structures and Algorithms, System Design, Design Patterns, Database Management System (DBMS), SOLID Principles}
+    {Object-oriented programming (OOPS), Data Structures and Algorithms, System Design, Design Patterns, Database Management System (DBMS), SOLID Principles, API Design, Cloud-native Development}
   \resumeSubItem{Soft Skills}
-    {Problem-Solving, Effective Communication, Cross-Functional Collaboration, Data-Driven and Adaptive}
+    {Problem-Solving, Effective Communication, Cross-Functional Collaboration, Data-Driven, Agile(Scrum)}
 \resumeSubHeadingListEnd
 
 %--------ACHIEVEMENTS------------
 \section{Achievements}
 \resumeSubHeadingListStart
-  \resumeSubItem{Enterprise Commerce Learn-It-All Q4 FY24}
+  \resumeSubItem{Enterprise Commerce - Learn It All}
     {Recognized for exceptional progress and contributions through day-to-day work and meaningful collaboration, demonstrating continuous professional development.}
-  \resumeSubItem{Enterprise Commerce Excellence - Wall of Fame Q3 FY24}
+  \resumeSubItem{Enterprise Commerce - Wall of Fame}
     {Contributed significantly to the organization's delivery objectives and cultural development, supporting key goals and driving achievements.}
-  \resumeSubItem{Enterprise Commerce Security Star Award Q2 FY24}
+  \resumeSubItem{Enterprise Commerce - Security Star}
     {Recognized for excellence in enhancing system security by improving authentication and authorization mechanisms.}
-  \resumeSubItem{Qual Star Award Q4 FY21}
+  \resumeSubItem{Qual Star}
     {Recognized under the principle of ownership of the product.}
 \resumeSubHeadingListEnd
 
