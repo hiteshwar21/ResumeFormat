@@ -21,6 +21,8 @@
 
 % Adjust margins
 \usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry}
+\setlength{\footskip}{4.1pt}
+
 
 \pagestyle{fancy}
 \fancyhf{}
