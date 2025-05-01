@@ -102,17 +102,23 @@
 \resumeSubHeadingListStart
   \resumeSubheading
     {EPAM}{Gurugram, India}
-    {Senior Platform Engineer}{Feb. 2024 -- current}
+    {Software Engineer (\textbf{Expedia Enterprise Risk and Fraud Team})}{Feb. 2024 -- current}
     \resumeItemListStart
-      \resumeItem{People Enrich}
-        {Developed an inter}
+      \resumeItem{Cloud Native Document Migration at Scale}
+        {Led the seamless migration of \textbf{11M+} documents from Docstore DB to AWS S3, improving storage scalability and operational efficiency with zero downtime.}
+      \resumeItem{Distributed Fraud Propagation Framework}
+        {Architected and implemented fraud-type propagation across distributed microservices, ensuring reliable data flow and integrity validation.}
+      \resumeItem{High-Performance API Refactor}
+        {Revamped a critical List Fetch API by implementing pagination, caching, and query tuning, thus cutting response time by \textbf{70\%} and enhancing UI/UX across services.}
+      \resumeItem{Risk Mitigation and Security Enhancements}
+        {Eliminated critical vulnerabilities across the IaaS layer, hardened Docker container security, and resolved failing functional tests reducing production incidents by \textbf{30\%}.}
     \resumeItemListEnd
   \resumeSubheading
     {Publicis Sapient}{Gurugram, India}
-    {Senior Platform Engineer}{Dec. 2023 -- Feb. 2023}
+    {Senior Platform Engineer}{Dec. 2023 -- Feb. 2024}
     \resumeItemListStart
-      \resumeItem{People Enrich}
-        {Developed an inter}
+      \resumeItem{Adobe Marketing Cloud}
+        {Worked in translating technical and business requirements into architectural designs.}
     \resumeItemListEnd
   \resumeSubheading
     {Sirion}{Gurugram, India}
@@ -126,22 +132,14 @@
         {Mentored junior developers and implemented client-driven ML model training and customization, enabling clients to create models from scratch or adjust base models through feedback.}
       \resumeItem{GDPR Compliance}
         {Subject Matter Expert (\textbf{SME}) for the feature to make the product GDPR Compliant.}
-      \resumeItem{Document Listings}
-        {Enhanced legacy code to current coding standards, resulting in a significant improvement (\textbf{70\%}) in List Fetch API.}
       \resumeItem{AutoExtraction}
         {Developed a platform for uploading and parsing documents and extracting relevant data, reducing the man-hours from \textbf{5-7 days to 1 minute} at a scale of \textbf{10 million plus documents.}}
-      \resumeItem{Rule Engine}
-        {Implemented client-specific metadata rules, automating processes and eliminating manual effort.}
       \resumeItem{Proof of Concept}
         {Conducted POCs on the usage of different 3rd party tools, including Aspose, Abbyy, Amazon Textract, Apache Pulsar, Apache Kafka, Migration from Java 8 to Java 11 and then to Java 17 Eventually.}
     \resumeItemListEnd
   \resumeSubheading
     {Publicis Sapient}{Bengaluru, India}
     {Intern}{Jan. 2019 -- Jun. 2019}
-    \resumeItemListStart
-      \resumeItem{People Enrich}
-        {Developed an internal tool for real-time resource allocation and management, resulting in a  \textbf{25\% boost} in resource utilization. Used Java, Springboot and PostgreSQL in this project.}
-    \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
@@ -152,24 +150,13 @@
     {Bachelor of Information Technology}{Aug. 2015 -- Jun. 2019}
 \resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------------
-\section{Projects}
-\resumeSubHeadingListStart
-  \resumeSubItem{Parking Lot}
-    {Implemented a Parking Lot system using SOLID principles and Design Patterns.}
-  \resumeSubItem{Legal Logix}
-    {Developed a POC enabling lawyers to efficiently create and manage digital records for their clients.}
-\resumeSubHeadingListEnd
-
 %-----------SKILLS-----------------
 \section{Skills}
 \resumeSubHeadingListStart
-  \resumeSubItem{Programming Languages}
-    {Java, Golang}
-  \resumeSubItem{Databases}
-    {PostgreSQL, SQL, MongoDB, Redis}
+  \resumeSubItem{Programming Languages And Databases}
+    {Java, Golang, PostgreSQL, SQL, MongoDB, Redis}
   \resumeSubItem{Frameworks and Tools}
-    {SpringBoot, Apache Kafka, Git, AWS, Jira, Apache Pulsar}
+    {SpringBoot, Apache Kafka, Git, AWS Clouformation, AWS EC2 , Jira, Apache Pulsar}
   \resumeSubItem{Core Skills}
     {Object-oriented programming (OOPS), Data Structures and Algorithms, System Design, Design Patterns, Database Management System (DBMS), SOLID Principles}
   \resumeSubItem{Soft Skills}
@@ -179,10 +166,10 @@
 %--------ACHIEVEMENTS------------
 \section{Achievements}
   \resumeSubHeadingListStart
-    \resumeSubItem{The Gandalf of the Quarter}
-      {Recognized for writing features with the fewest bugs (at least 5 story deliveries).}
-    \resumeSubItem{President, Photography Club}
-      {Organized Fests (with a footfall of around 1500), conducted more than 20 workshops and won photography competitions at various universities.}
+    \resumeSubItem{Expedia Delivery Champ (H2 '24)}
+      {Recognized for delivering high-quality projects ensuring excellence and impact.}
+    \resumeSubItem{The Gandalf of the Quarter (Q1-Q4 '22)}
+      {Recognized for writing features with the fewest bugs (atleast 5 stories).}
   \resumeSubHeadingListEnd
 
 %-------------------------------------------
