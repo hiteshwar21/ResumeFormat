@@ -21,6 +21,7 @@
 
 % Adjust margins
 \usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry}
+\setlength{\footskip}{4.1pt}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -48,6 +49,20 @@
   \item\small{
     \textbf{#1:} #2 \vspace{-2pt}
   }
+}
+\newcommand{\resumeItemTwoLine}[2]{
+  \item \small{
+    \textbf{#1}
+    \begin{itemize}
+      #2 \vspace{-2pt}
+    \end{itemize}
+  }
+}
+\newcommand{\resumeSingleLineSubheading}[1]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1}
+    \end{tabular*}\vspace{-5pt}
 }
 
 % Just in case someone needs a heading that does not need to be in a list
@@ -96,29 +111,33 @@
 %-----------EXPERIENCE-----------------
 \section{Experience}
 \resumeSubHeadingListStart
-  \resumeSubheading
-    {Microsoft}{Noida, India}
-    {Software Engineer II, L62}{Mar. 2022 -- Current}
-    \resumeItemListStart
-            \resumeItem{Architected Core Service Migration}
-        {Led the successful migration of core services from IaaS to PaaS on \textbf{Azure}, implementing robust system designs that reduced cloud costs by optimizing resource utilization. Enhanced system performance by increasing throughput from 50 to 200 requests per 5 seconds and improved average order creation time by 30\% (from 12 seconds to 8 seconds) through \textbf{asynchronous processing} and optimized data retrieval mechanisms.}
-      \resumeItem{Security Leadership}
-        {Drove initiatives to enhance backend security by implementing advanced authentication and authorization frameworks such as \textbf{Managed Identities} and \textbf{Azure Easy Auth}. Established network isolation and refined access policies for secure inter-service communication, significantly mitigating security risks. Developed a proof of concept for secure server-to-server communication between tenants, fortifying inter-tenant security protocols.}
-      \resumeItem{Legacy System Modernization}
-        {Led a cross-functional team of four engineers to transform a legacy ordering system into a modern architecture, employing \textbf{caching strategies}, \textbf{query optimization}, and \textbf{load balancing techniques}. This modernization resulted in a 70\% reduction in API latency and a 150\% increase in throughput, greatly enhancing loading times for large orders (151k items) and significantly improving customer experience. Mentored team members throughout the project, fostering a culture of continuous improvement and knowledge sharing.}
-    \resumeItemListEnd
-  \resumeSubheading
-    {Qualcomm}{Hyderabad, India}
-    {Software Engineer}{Jan. 2020 -- Feb. 2022}
+  \resumeSingleLineSubheading
+    {Microsoft \( | \) Software Engineer II, L62 \( | \) Noida, India \( | \) Mar. 2022 -- Current}
+    \begin{itemize}
+      \resumeItemTwoLine{Modernization of Enterprise Order Management System}{
+        \item Redesigned a monolithic platform into Azure-based microservices, improving modularity and reducing deployment time by 80\%.
+        \item Integrated AAD-backed EasyAuth for secure edge-level access; reduced SKU load time from 5 minutes to 10 seconds using server-side pagination and batch retrieval.
+        \item Led cross-team collaboration and mentored a 5-member team to production readiness, achieving a 70\% API latency reduction and 150\% throughput improvement.
+      }
+      \resumeItemTwoLine{Cloud-Native Migration of Order Processing}{
+        \item Migrated critical services to an event-driven architecture using Azure Durable Functions and Service Bus, enabling parallel, batch-based processing.
+        \item Achieved 4x throughput increase and 30\% latency reduction by optimizing function orchestration and observability pipelines.
+      }
+      \resumeItemTwoLine{Multi-Region Secure API Infrastructure}{
+        \item Designed and deployed a zero-public-exposure API infrastructure across regions using Traffic Manager, Front Door, WAF, and Private Link.
+        \item Enabled seamless regional failover and global routing, ensuring high availability and data protection.
+      }
+    \end{itemize}
+  \resumeSingleLineSubheading
+    {Qualcomm \( | \) Software Engineer \( | \) Hyderabad, India \( | \) Jan. 2020 -- Feb. 2022}
     \resumeItemListStart
       \resumeItem{Processor Power Optimization}
         {Developed power management features in Java and C++, achieving a 20\% reduction in power consumption.}
       \resumeItem{Smart Contracts}
         {Created a system to convert scanned contracts into machine-readable PDFs, improving document retrieval speed by 30\%.}
     \resumeItemListEnd
-  \resumeSubheading
-    {Samsung R\&D}{Bengaluru, India}
-    {Software Engineer}{Jan. 2019 -- Jan. 2020}
+  \resumeSingleLineSubheading
+    {Samsung R\&D \( | \) Software Engineer \( | \) Bengaluru, India \( | \) Jan. 2019 -- Jan. 2020}
     \resumeItemListStart
       \resumeItem{CodeReviewCommment.ai}
         {Enhanced code review efficiency by 25\% through machine learning algorithms.}
